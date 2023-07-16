@@ -10,12 +10,12 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 .btn-primary{
-    padding: 20px 25px;
+    padding: 15px 20px;
     background-color: rgba(255, 144, 14, 1);color: #FFF;
     border: 0;
     border-radius: 8px;
     text-align: center;
-    font-size: px;
+    font-size:17px;
     font-weight: 600;
     cursor: pointer;
 }
@@ -68,7 +68,7 @@ nav{
 }
 
 .banner-content{
-    max-width: 800px;
+    max-width: 600px;
     text-align: center;
     margin: 0 auto;
 
@@ -97,3 +97,47 @@ nav{
 }
 /* Banner style end */
 /* Header style end */
+
+/* Main Section style start */
+main{
+    max-width: 70%;
+    margin: 0 auto;
+
+}
+/* Feature style  */
+
+.feature{
+    display: flex;
+    align-items: center;
+    margin: 50px 70px 80px;
+    
+}
+.team-image-container {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 10px;
+    margin-right: 70px;
+}
+.team-image-container img{
+    width: 100%;
+}
+.teams-content{
+
+}
+.teams-content-title{
+    font-size: 40px;
+    font-weight: 500;
+}
+.text-color{
+    color: #FF900E;
+}
+.team-content-desc{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+/* Feature style end */
+
+/* Main Section style End */

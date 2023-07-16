@@ -6,6 +6,10 @@
     nav{
         flex-direction: column;
     }
+
+    .feature{
+        flex-direction: column;
+    }
 }
 
 
@@ -18,5 +22,13 @@
    
     header{
         padding: 50px;
+    }
+
+    .feature{
+        flex-direction: column;
+        text-align: center;
+    }
+    .teams-content-title{
+        margin-top: 30px;
     }
 }
