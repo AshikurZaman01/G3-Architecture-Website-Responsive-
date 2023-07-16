@@ -100,7 +100,7 @@ nav{
 
 /* Main Section style start */
 main{
-    max-width: 70%;
+    max-width: 65%;
     margin: 0 auto;
 
 }
@@ -140,4 +140,20 @@ main{
 }
 /* Feature style end */
 
+.facts{}
+.facts-title{
+    color: #131313;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.facts-desc{
+    color: #727272;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+
 /* Main Section style End */
+
