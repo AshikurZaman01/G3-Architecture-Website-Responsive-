@@ -1,6 +1,54 @@
+/* Common style Start */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/* Common style end */
+
+/* Header style Start */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color:#131313;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+.menus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menus{ 
+}
+.menus li{
+    list-style: none;
+}
+.menus li a{
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #424242;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0 26px;
+
+}
+/* Header style end */
