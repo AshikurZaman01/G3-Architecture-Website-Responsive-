@@ -10,16 +10,16 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 .btn-primary{
-    width: 180px;
-    height: 50px;
-    background-color: rgba(255, 144, 14, 1);
+    padding: 20px 25px;
+    background-color: rgba(255, 144, 14, 1);color: #FFF;
     border: 0;
     border-radius: 8px;
-    color: #FFF;
     text-align: center;
-    font-size: 20px;
+    font-size: px;
     font-weight: 600;
+    cursor: pointer;
 }
+
 /* Common style end */
 
 /* Header style Start */
